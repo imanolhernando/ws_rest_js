@@ -1,0 +1,73 @@
+<!doctype html> 
+<html lang="en">
+  <head>
+    <!-- Required meta tags --> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+
+    <title>Gestión de vehiculos</title>
+  </head>
+
+  <body>
+    
+    <main class="container">
+
+     <div id="alert"></div>  
+
+      <div class="row mt-3">
+        <div class="col-4">
+          <h4 class="text-white bg-info p-3">ACTIVOS</h4>
+          <ul id="ulVehiculoAlta" class="list-group">         
+              <li class="list-group-item">Cargando...</li>
+           </ul>
+        </div> 
+        
+         
+        <div class="col-4">
+          <h4 class="text-white bg-warning p-3">INACTIVOS</h4>
+          <ul id="ulVehiculoBaja" class="list-group">
+              <li class="list-group-item">Cargando...</li>
+            </ul>
+        </div> 
+
+
+
+         <div class="col-4">
+          <h4 class="bg-secondary text-white p-3">Vehículo</h4>
+          
+          <div class="form-group">
+            <input id="matricula" type="text" placeholder="BI000KM" class="form-control" value="BI000KM">
+            <small class="form-text text-muted mb-3">Matrícula: minimo 6 maximo 10</small>
+
+            
+            <input id="modelo" type="text" placeholder="modelo coche" class="form-control" value="Panda">
+            <small class="form-text text-muted  mb-3">Modelo: obligatorio</small>
+            
+            <input id="km" type="text" placeholder="Numero Kilometros" class="form-control" value="150000">
+            <small class="form-text text-muted mb-3">Kilometraje: obligatorio</small>
+
+            <button id="botoncrear" class="btn btn-outline-primary btn-block mt-4">Crear</button>
+            <button id="botonmodificar" class="btn btn-outline-success btn-block mt-4">Modificar</button>
+            
+          </div>
+        </div> 
+      </div>
+
+    </main>
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
