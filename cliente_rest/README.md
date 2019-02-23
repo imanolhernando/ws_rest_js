@@ -1,5 +1,7 @@
 # WSRestClientJS 
 
+//TODO activar
+
 Sencillo cliente en JavaScript (vanilla) para consumir el servicio rest a traves de llamadas Ajax ( XMLHttpRequest ).
 
 Podemos realizar un CRUD de los Vehiculos.
